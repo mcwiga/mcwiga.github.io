@@ -3,12 +3,11 @@ import './VideoStyles.css'
 import { Link } from 'react-router-dom'
 
 import waves from '../assets/waves.mp4'
+import Render from './Render'
 
 function Video() {
   return (
-    <div className='hero'><video autoPlay loop muted id='video'>
-        <source src={waves} type='video/mp4'/>
-        </video>
+    <div className='hero'><Render/>
         <div className='content'>
             <h1>Michael anthony McGloin</h1>
             <p>Mathematics Graduate</p>
