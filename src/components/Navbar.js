@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
     <div className='header'>
         <Link to='/'>
-        <h1>MICHAEL</h1>
+        <h1>mcwiga</h1>
         </Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
@@ -24,9 +24,6 @@ const Navbar = () => {
             </li>
             <li>
                 <Link to='/'>About Me</Link>
-            </li>
-            <li>
-                <Link to='/'>Tests</Link>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>

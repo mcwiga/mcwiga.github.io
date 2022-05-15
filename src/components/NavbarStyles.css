@@ -9,6 +9,11 @@
     z-index: 10;
 }
 
+.header h1{
+    font-size: 200;
+    font-weight: 200;
+}
+
 .nav-menu {
     display: flex;
 }

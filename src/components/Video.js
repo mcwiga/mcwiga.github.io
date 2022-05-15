@@ -10,7 +10,7 @@ function Video() {
         <source src={waves} type='video/mp4'/>
         </video>
         <div className='content'>
-            <h1>Michael McGloin</h1>
+            <h1>Michael anthony McGloin</h1>
             <p>Mathematics Graduate</p>
             <div>
                 <Link to='/projects' className='btn'>
