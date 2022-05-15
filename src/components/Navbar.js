@@ -17,16 +17,16 @@ const Navbar = () => {
         </Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
-                <Link to='/mywebpage'>Home</Link>
+                <Link to='/'>Home</Link>
             </li>
             <li>
-                <Link to='/mywebpage'>Projects</Link>
+                <Link to='/'>Projects</Link>
             </li>
             <li>
-                <Link to='/mywebpage'>About Me</Link>
+                <Link to='/'>About Me</Link>
             </li>
             <li>
-                <Link to='/mywebpage'>Tests</Link>
+                <Link to='/'>Tests</Link>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>
