@@ -9,15 +9,15 @@ function Video() {
   return (
     <div className='hero'><Render/>
         <div className='content'>
-            <h1>Michael anthony McGloin</h1>
+            <h1>Michael McGloin</h1>
             <p>Mathematics Graduate</p>
             <div>
-                <Link to='/projects' className='btn'>
+                <a href='https://docs.google.com/document/d/1lAbzRmNcgCobhZAC-P8-U3T74pJp2FLhW80rJukGMGU/edit?usp=sharing' className='btn' l>
+                    Resume
+                </a>
+                <a href='https://github.com/mcwiga' className='btn btn-light'>
                     Projects
-                </Link>
-                <Link to='/about-me' className='btn btn-light'>
-                    About Me
-                </Link>
+                </a>
             </div>
         </div>
     </div>
