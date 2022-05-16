@@ -1,6 +1,6 @@
 import React from 'react'
 import './FooterStyles.css'
-import {FaSpotify ,FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation,FaTwitter} from 'react-icons/fa'
+import {FaSpotify ,FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaInstagram} from 'react-icons/fa'
 
 
 function Footer() {
@@ -32,9 +32,9 @@ function Footer() {
                     play guitar!</p>
                 
                 <div className='social'>
-                <h4><FaSpotify size={30} style={{color: '#fffff', marginRight: '1rem'}}/></h4>
-                <h4> <FaTwitter size={30} style={{color: '#fffff', marginRight: '1rem'}}/></h4>
-                <h4> <FaLinkedin size={30} style={{color: '#fffff', marginRight: '1rem'}}/></h4>
+                <a href="https://open.spotify.com/artist/3R7P7bVHTZqeEpUAb2q5zs?si=cKUUtcTlRfu5rke61ZmeCA"><h4><FaSpotify size={30} style={{color: '#fffff', marginRight: '1rem'}}/></h4></a>
+                <a href="https://www.instagram.com/micycle/?hl=en"><h4><FaInstagram size={30} style={{color: '#fffff', marginRight: '1rem'}}/></h4></a>
+                <a href="https://www.linkedin.com/in/michael-mcgloin/"> <h4><FaLinkedin size={30} style={{color: '#fffff', marginRight: '1rem'}}/></h4></a>
                 </div>
             </div>
         </div>

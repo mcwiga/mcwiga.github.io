@@ -14,6 +14,7 @@
     font-weight: 200;
 }
 
+
 .nav-menu {
     display: flex;
 }
@@ -58,5 +59,6 @@
     }
     .nav-menu a {
         font-size: 2rem;
+        font-weight: 200;
     }
 }
