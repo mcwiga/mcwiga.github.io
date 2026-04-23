@@ -13,7 +13,7 @@ function Video() {
             <p>Mathematics Graduate</p>
             <h2>(Site in Progress)</h2>
             <div>
-                <a href='https://docs.google.com/document/d/1lAbzRmNcgCobhZAC-P8-U3T74pJp2FLhW80rJukGMGU/edit?usp=sharing' className='btn' l>
+                <a href='https://docs.google.com/document/d/1l-FV4Es6rTgw6fXr_l6Riz07DM9wSOMD1NYpdaMTYyw/edit?usp=sharing' className='btn' l>
                     My CV
                 </a>
                 <a href='https://github.com/mcwiga' className='btn btn-light'>
