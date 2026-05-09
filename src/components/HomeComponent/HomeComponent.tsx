@@ -67,12 +67,10 @@ function generateModalText(modalType: ModalType | undefined) {
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             Lagrangian fibrations are fundamental objects in mathematical
-            physics. A vast range of examples of these are given via completely
-            integrable Hamiltonian systems. They are also of interest to
-            mathematicians and are abundent in the field of symplectic geometry.
-            Closely related to this, they can be realised as symplectic
-            realisations of the zero Poisson structure of a manifold. My thesis
-            involved classifying these fibrations over compact surfaces.
+            physics. Examples of these are given via completely integrable
+            Hamiltonian systems. They can be realised as symplectic realisations
+            of the Poisson zero structure of a manifold. My thesis involved
+            classifying these fibrations over compact surfaces.
           </Typography>
           <Button
             variant="outlined"
@@ -189,7 +187,7 @@ export function HomeComponent() {
     "https://docs.google.com/document/d/1l-FV4Es6rTgw6fXr_l6Riz07DM9wSOMD1NYpdaMTYyw/edit?usp=sharing";
   return (
     <>
-      <div style={{ width: "50%", paddingBottom: "20px" }}>
+      <div style={{ width: "60%", paddingBottom: "20px" }}>
         Hi! I'm Michael and I enjoy music, mathematics and creating
         visualisations! Slide through some of my projects below and click on
         them for more information!
@@ -197,7 +195,7 @@ export function HomeComponent() {
       <EmblaCarousel></EmblaCarousel>
       <div
         className="contentArea"
-        style={{ width: "50%", paddingBottom: "20px" }}
+        style={{ width: "60%", paddingBottom: "20px" }}
       >
         To see some more projects I have worked on check out my github!
       </div>
