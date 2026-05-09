@@ -1,0 +1,30 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.embla {
+  width: max(25%, 200px);
+  margin: 0 auto;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  align-items: center;
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide {
+  cursor: pointer;
+  flex: 0 0 100%;
+  min-width: 0;
+  padding: 10px;
+  margin: 10px;
+}

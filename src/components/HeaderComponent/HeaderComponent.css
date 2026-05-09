@@ -1,0 +1,31 @@
+.websiteTitle {
+  text-align: left;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.headerItem {
+  padding: 5px 50px;
+}
+
+.aboutMe {
+  text-align: right;
+  margin-left: auto;
+  cursor: pointer;
+  align-self: center;
+}
+
+.headerContent {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.drawer {
+  background-color: var(--social-bg) !important;
+  color: white;
+  width: max(20vw, 200px);
+  padding: 10px;
+  text-align: center;
+}
