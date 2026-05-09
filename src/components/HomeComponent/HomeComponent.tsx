@@ -195,7 +195,10 @@ export function HomeComponent() {
         them for more information!
       </div>
       <EmblaCarousel></EmblaCarousel>
-      <div className="contentArea">
+      <div
+        className="contentArea"
+        style={{ width: "50%", paddingBottom: "20px" }}
+      >
         To see some more projects I have worked on check out my github!
       </div>
       <div className="buttons">
