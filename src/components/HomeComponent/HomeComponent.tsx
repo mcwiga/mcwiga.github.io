@@ -10,7 +10,6 @@ import Modal from "@mui/material/Modal";
 import { Box } from "@mui/material";
 import { Typography } from "@mui/material";
 import { useEffect, useState } from "react";
-import Avatar from "@mui/material/Avatar";
 
 enum ModalType {
   KNOT = "Knot",
